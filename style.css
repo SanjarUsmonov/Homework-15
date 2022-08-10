@@ -70,12 +70,18 @@
     height: 160px;
 }
 .main__sub{
+    margin: 0 auto;
     text-align: center;
     margin-top: 84px;
     margin-bottom: 30px;
     color: #54410C;
     color: #54410C;
     font-size: 28px;
+    border: 1px solid #54410C;
+    border-right: none;
+    border-left: none;
+    width: 400px;
+    padding: 20px;
 }
 .main__p{
     font-size:20px ;
@@ -84,11 +90,19 @@
     border-bottom: 5px solid #54410C;
     padding-bottom: 50px;
 }
-.mian__foot{
+.main__foot{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.main__img3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.main__img4{
+    border-bottom: 5px solid #54410C;
+    padding-bottom: 50px;
 }
 .main__icon{
     margin-bottom: 23px;
@@ -185,12 +199,3 @@
     font-size: 20px;
     font-weight: 400;
 } 
-.fix{
-    position: fixed;
-    padding: 30px;
-    border-radius: 50%;
-    bottom: 25px;
-    right: 200px;
-    border: 1px solid #54410C;
-    background-color: #54410C;
-}
